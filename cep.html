@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Buscador de Cep</title>
+    <link rel="stylesheet" href="cep.css">
+</head>
+<body onload="relogio()">
+    <fieldset id="topo">
+        <h1 id="titulo">Buscar Cep &#127968;</h1>
+        <h3 id="hora">hora</h3>
+    </br>
+        <h3 id="dat"></h3>
+    
+        
+
+    </fieldset>
+
+</br>
+
+    <p id="piu">Digite o Cep : <input type="number" placeholder="  Somente Numeros" id="txtcep"> <strong id="status">  </strong></p>
+    <button onclick="buscar_cep()">Buscar Cep &#128270; </button>
+</br>
+</br>
+    
+    <section>
+        <div id="dados">
+            Cep :<b id="cepp"></b></br>
+        </br>
+            Bairro :<b id="bairro"></b></br>
+        </br>
+            Endereço :<b id="logra"></b></br>
+        </br>
+            Cidade :<b id="local"></b></br>
+        </br>
+            Estado :<b id="uf"></b>
+
+        </div>
+    </section>
+   
+        <img src="/img/logo.png" alt="" id="ibr">
+    
+</br>
+    <footer ><h2>&copy; Sistemas Flavios</h2></footer>
+    
+
+
+
+
+
+    <script src="cep.js"></script>
+</body>
+</html>
