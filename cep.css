@@ -58,11 +58,12 @@ h3{
 }
 
 #ibr{
-    position: relative;
-    float: right;
-    margin-top: -300px;
-    margin-left: -80px;
-    width: 750px;
+
+    margin-top: 30px;
+    background: blue;
+    box-shadow: 5px 5px 10px;
+    width: 100px;
+    border-radius: 10px;
 }
 strong{
     font-size: 40px;
