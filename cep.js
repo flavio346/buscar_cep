@@ -7,7 +7,7 @@ function buscar_cep(){
         window.alert('[ERRO] CAMPO EM BRANCO! INSIRA O CEP.')
     }
     if(cep.value.length < 8 || cep.value.length > 8){
-        window.alert('[ERRO] CPF POSSUI SOMENTE 8 DIGITOS!! TENTE NOVAMENTE')
+        window.alert('[ERRO] CEP POSSUI SOMENTE 8 DIGITOS!! TENTE NOVAMENTE')
     }
 
     
